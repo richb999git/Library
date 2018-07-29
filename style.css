@@ -1,0 +1,145 @@
+
+body {
+    
+}
+
+.wrapper {
+    max-width: 1100Px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40Px;
+    color: black;
+}
+
+.title {
+    margin-bottom: 6Px;
+    font-size: 20Px;
+    font-family: sans-serif;
+    border-bottom: 3Px solid lightgrey;
+    padding-bottom: 3Px;
+    font-weight: bold;
+}
+
+.book {
+    margin-top: 4Px;
+    margin-bottom: 4Px;
+    font-size: 18Px;
+    font-family: sans-serif;
+    border-bottom: 1Px solid lightgrey;
+    padding-top: 4Px;
+    padding-bottom: 4Px;
+}
+
+
+#addBook {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3Px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.bookTitle {
+    float: left;
+    width: 40%;
+}
+
+.bookAuthor {
+    float: left;
+    width: 30%;
+}
+
+.bookPages {
+    float: left;
+    width: 15%;
+}
+
+.bookRead {
+    float: left;
+    width: 7.5%;
+}
+
+.bookDel {
+    float: left;
+    width: 7.5%;
+}
+
+.inputTitle {
+    width: 40%;
+}
+
+.inputAuthor {
+    width: 20%;
+}
+
+.inputPages {
+    width: 10%;
+}
+
+.input {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 3Px;
+    border-radius: 2Px 2px 2px 2Px;
+    margin-right: 10Px;
+    margin-bottom: 5Px;
+}
+
+#inputRead { 
+    font-family: sans-serif;
+    width: 10%;
+}
+
+.inputSubmit {
+    background-color: #999999;
+    border: none;
+    border-radius: 3Px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+input.inputSubmit:hover {
+    cursor: hand; 
+    background-color: #777777;
+}
+
+
+a {
+    color: black;
+    text-decoration:  none;
+}
+
+
+a:link {
+    color: black;
+    text-decoration:  none;
+}
+
+a:visited {
+    color: black;
+    text-decoration:  none;
+}
+
+a:focus {
+}
+
+a:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+a:active {
+}

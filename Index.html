@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Testing</title>
+    <link rel="stylesheet" href="style.css">
+        <style>
+        </style>
+  </head>
+    
+<body>
+
+    <div class="wrapper">
+        <h1>My Library</h1>
+        
+        <p></p>
+        
+        <!-- no "action" because it is not being sent to a server -->
+        <form id="inpForm" name="bookForm" ><br>
+            <input type="text" name="inpTitle" placeholder="Title" class="input inputTitle" id="inpTitle" required>
+            <input type="text" name="inpAuthor" placeholder="Author" class="input inputAuthor" id="inpAuthor" required>
+            <input type="number" name="inpPages" placeholder="Pages" step="1" min="0" required class="input inputPages" id="inpPages">
+            <label id="inputRead">Read:<input type="checkbox" name="inpRead" class="input inputRead" id="inpRead"></label>
+            <br>
+            <input type="submit" name="inpSubmit" value="Update Library" class="inputSubmit" id="newBook">
+        </form> 
+
+        
+        <p></p>
+        <p class="title bookTitle" id="titleTitle">Title</p>
+        <p class="title bookAuthor" id="titleAuthor">Author</p>
+        <p class="title bookPages" id="titlePages">Pages</p>
+        <p class="title bookRead" id="titleRead">Read</p>
+        <p class="title bookDel" id="titleDelete">Del</p>
+        
+        <div id="bookList">
+            <!-- this will be from Javascript -->
+<!--
+            <p class="book bookTitle" id="titleBook0">The Hobbit</p>
+            <p class="book bookAuthor" id="authorBook0">J.R.R. Tolkien</p>
+            <p class="book bookPages" id="pagesBook0">500</p>
+            <a class="book bookRead" id="readBook0" href="#">No</a> 
+            <a class="book bookDel" id="delBook0" href="#">x</a>
+            etc
+-->
+        </div>
+    </div>
+
+    <script src="library.js"></script> 
+
+    
+</body>     
+
+</html>
